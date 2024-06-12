@@ -1,15 +1,10 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
 
 import face_recognition
 import cv2
 
-img1=face_recognition.load_image_file("CEO.jpeg") 
+img1=face_recognition.load_image_file("Test_image_1.jpeg") 
 img1=cv2.cvtColor(img1,cv2.COLOR_BGR2RGB)
-img2=face_recognition.load_image_file("CEO2.jpeg") 
+img2=face_recognition.load_image_file("Test_image_3.jpeg") 
 img2=cv2.cvtColor(img2,cv2.COLOR_BGR2RGB)
 
 
